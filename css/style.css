@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(219, 200, 200);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+ 
+.container{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(173, 125, 125);
+    margin-top: 10vh;
+    padding:20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #1a0936;
+    opacity: 1;
+    text-align: center;
+    align-content: center;
+}
+
+.currency{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.currency select {
+background-color: #ad7d7d;
+color: #1a0936;
+width : 80px;
+height: 32px;
+border: none;
+border-radius: 5px;
+font-size: 1.6rem;
+font-weight: bold;
+
+}
+
+.currency input {
+    background-color: #bb8e8e;
+    color: #1a0936;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding:2px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 4px;
+    
+}
+.currency select option{
+    background-color: #1a0936;
+    font-size: 1rem;
+    color: rgb(226, 162, 162);
+    
+}
+
+.result {
+
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ button#exchange  {
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#1a0936;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+   
+    padding-bottom : 0.3rem;
+    background-color: rgb(173, 125, 125);
+    border: none;
+}
+
+ button#exchange:hover{
+    color: #1a0936;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+ button#exchange:active{
+}
+
+ .rate{
+    width: 400px;
+    height: 50px;
+    border: none    ;
+    text-decoration: underline;
+    border-radius: 15px;
+    margin-top: 80px;
+    color: #1a0936;    
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+select:focus, input:focus, button:focus {
+	outline: 0;
+}
