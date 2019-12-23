@@ -1,22 +1,23 @@
 body{
-    background-color: rgb(241, 217, 184);
+    background-color: rgb(240, 225, 205);
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
 }
   
 .container{
     height: 500px;
     width: 500px;
-    background-color:#4e8a8f;
+    background-image: linear-gradient(to bottom left,#6ad882,#a4d1a2,#caecda );
+    /*background-color:#393169;*/
     margin-top: 10vh;
     padding:20px;
     border: none;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #1a0936;
+    color: #000000;
     opacity: 1;
     text-align: center;
     align-content: center;
@@ -29,34 +30,37 @@ body{
 }
 
 .currency select {
-background-color: #4e8a8f;
-color: #1a0936;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color:transparent;
+color: #0e3114;
 width : 80px;
 height: 32px;
 border: none;
 border-radius: 5px;
-font-size: 1.6rem;
+font-size: 1.5rem;
 font-weight: bold;
 
 }
 
 .currency input {
-    background-color: #739194;
-    color: #1a0936;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: transparent;
+    color: #192c1e;
     width: 400px;
     height: 40px;
     border: none;
     border-radius: 30px;
     padding:2px;
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 4px;
     
 }
 .currency select option{
-    background-color: #1a0936;
+    background-color: #89c095;
     font-size: 1rem;
-    color: rgb(226, 162, 162);
+    color: rgb(20, 41, 26);
     
 }
 
@@ -68,14 +72,14 @@ font-weight: bold;
 }
 
  button#exchange  {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: #4e8a8f;
-    color:#1a0936;
+    background-color: transparent;
+    color:#213a25;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     justify-content: center;
     padding-bottom : 0.3rem;
@@ -85,8 +89,8 @@ font-weight: bold;
 }
 
  button#exchange:hover{
-    
-    background-color: #739194;
+    color: #213a25;
+    background-color: #569456;
     border: none;
     border-radius: 50%;
 }
@@ -95,14 +99,14 @@ font-weight: bold;
 }
 
  .rate{
-    background-color: #739194;
-    color: #663128;    
-    width: 400px;
+   
+    color: #5f2419;    
+    width: 500px;
     height: 35px;
     border-radius: 15px   ;
     border-radius: 35px;
     margin-top: 80px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 2rem;
     text-align: center;
 }
