@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(240, 225, 205);
+    background-color: #131731;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -10,8 +10,8 @@ body{
 .container{
     height: 500px;
     width: 500px;
-    background-image: linear-gradient(to bottom left,#6ad882,#a4d1a2,#caecda );
-    /*background-color:#393169;*/
+    /* background-image: linear-gradient(to bottom left,#a4d1a2,#b1eece ); */
+    background-color:#ffffff;
     margin-top: 10vh;
     padding:20px;
     border: none;
